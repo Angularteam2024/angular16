@@ -18,6 +18,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { MainstoreComponent } from './mainstore/mainstore.component';
 import { AboutComponent } from './about/about.component';
 import { FooterComponent } from './footer/footer.component';
+import { EnterprisesComponent } from './enterprises/enterprises.component';
 
 @NgModule({
 
@@ -36,7 +37,8 @@ import { FooterComponent } from './footer/footer.component';
     MainstackComponent, 
     MainstoreComponent,
     AboutComponent,
-    FooterComponent
+    FooterComponent,
+    EnterprisesComponent
     
   ],
   imports: [
