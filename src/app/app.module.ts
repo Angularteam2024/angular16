@@ -13,10 +13,11 @@ import { ForgotpasswordComponent } from './forgotpassword/forgotpassword.compone
 import { ChangepasswordComponent } from './changepassword/changepassword.component';
 import { NewaccountComponent } from './newaccount/newaccount.component';
 import { MainstackComponent } from './mainstack/mainstack.component';
-import { RouterModule } from '@angular/router';
+import { RouterLink, RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 import { MainstoreComponent } from './mainstore/mainstore.component';
 import { AboutComponent } from './about/about.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
 
@@ -34,7 +35,8 @@ import { AboutComponent } from './about/about.component';
     NewaccountComponent,
     MainstackComponent, 
     MainstoreComponent,
-    AboutComponent
+    AboutComponent,
+    FooterComponent
     
   ],
   imports: [
@@ -42,7 +44,8 @@ import { AboutComponent } from './about/about.component';
     AppRoutingModule,
     ReactiveFormsModule,
     RouterModule,
-    HttpClientModule
+    HttpClientModule,
+    RouterLink
   ],
   providers: [],
   bootstrap: [AppComponent]
