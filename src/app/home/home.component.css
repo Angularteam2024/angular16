@@ -1,0 +1,68 @@
+.mx_wd{
+    font-family:  Arial, Helvetica, sans-serif;
+    max-width: 1300px;
+    margin: auto;
+   
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.head{
+ 
+    max-width: 1100px;
+    font-weight: 300;
+   
+    
+}
+
+.login_btn button{
+    
+    background-color: rgb(5, 180, 250);
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
+
+.login_btn button>a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.grids{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+
+.grid img{
+    width: 350px;
+    border-radius: 10px;
+}
+.grid img:hover{
+   
+    cursor: pointer;
+}
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin:20px auto;
+    justify-content: space-between;
+    line-height: 400%;
+  
+
+}
+
+
+.link a{
+    color: black;
+    text-decoration: none;
+   
+}

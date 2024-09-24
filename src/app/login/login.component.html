@@ -1,0 +1,29 @@
+<div class="mx_wd">
+    <div class="login-page">
+    <div class="login">
+        <p>Please Login Your Account</p>
+        <h2>NOKIA</h2>
+
+    </div>
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()" class="form-login">
+        <label for="userId">User ID</label>
+        <input formControlName="userId" class="form-input"  type="text" 
+        placeholder="Enter your ID" name="name" id="A" >
+        <label for="password">Password</label>
+        <input formControlName="password" class="form-input"  type="password"
+         placeholder="Enter your password" name="passward" id="B">
+        <button type="submit"  class="form-button"> Login</button>
+        <!-- <a href="/header">Login</a> -->
+    </form>
+
+    <div class="frt-chg-new">
+        <div class="forgot_change">
+            <a href="" routerLink="/forgotpassword">Forgot password?</a>
+            <a href="" routerLink="/changepassword">Change password?</a>
+        </div>
+        <div class="new_account">
+            <p>If you don't have a account? <a href="" routerLink="/newaccount">Create Account</a></p>
+        </div>
+    </div>
+</div>
+</div>

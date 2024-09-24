@@ -1,0 +1,103 @@
+
+.mx_wd{
+    max-width: 1500px;
+    margin: auto;
+    background-color: rgba(128, 128, 128, 0.164);
+    border-radius: 5px;
+
+}
+.heading>h3{
+    
+    color: rgb(39, 39, 177);
+    text-align: center;
+    margin: auto;
+    max-width: max-content;
+    padding: 0.5% 10%;
+  
+}
+.heading>h6{
+    height: 0.1px;
+    visibility:hidden;
+}
+.patr-code{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: auto;
+}
+.patr-code1{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 15%;
+    margin: 1%;
+}
+/* .patr-code1>input{
+    margin:6% 0%;
+} */
+.patr-code-btn{
+   margin:1% 8.9% 1% 0%;
+}
+.patr-code-btn>button{
+    color: white;
+    background-color: forestgreen;
+    padding: 15% 30%;
+    cursor: pointer;
+    border-radius: 5px;
+}
+input{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1.5px solid green;
+    margin:6% 0%;
+}
+.heading2>h3{
+    width: max-content;
+    color: rgb(39, 39, 177);
+    margin: auto;
+    padding: 0% 2%;
+}
+.auto-generate{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: auto;
+}
+.au-gen-inp{
+    max-width: 1100px;
+    margin: 1%;
+}
+.heading3>h3{
+    width: max-content;
+    color: rgb(39, 39, 177);
+    margin: auto;
+    padding: 0% 5%;
+}
+.manual-entry{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.man-ent-inp{
+    /* max-width: 20%; */
+    margin: 0% 5% 0% 5%;
+    margin: 0% 1%;
+}
+.clear-btn{
+    margin: 2.2% 10.3% 2% 19%;
+    /* margin-right: 8%; */
+}   
+.clear-btn>button{
+    color: white;
+    border: 1.5px solid white;
+    background-color: rgb(9, 156, 214);
+    padding: 23%  76%;
+    cursor: pointer;
+    border-radius: 5px;
+    /* margin: 3% 10%; */
+}

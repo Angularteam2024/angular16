@@ -1,0 +1,112 @@
+<div class="mx_wd">
+    <div class="heading">
+        <H6>hidding for space</H6>
+        <h3>Receiving</h3>
+    </div>
+   <form [formGroup]="ReceivingForm" (ngSubmit)="onSubmit()">
+    <div class="patr-code">
+        <div class="patr-code1">
+            <label for="pcode">Patr code</label>
+            <input formControlName="pcode" type="text" id="pcode" placeholder="1AB19450003" />
+        </div>
+        <div class="patr-code-btn">
+            <button [disabled]="ReceivingForm.invalid"><b>Submit</b></button>
+        </div>
+    </div>
+    <div class="heading2">
+        <h3>Everything Auto Generate</h3>
+    </div>
+    <div class="auto-generate">
+        <div class="au-gen-inp">
+            <label for="des">Description</label>
+            <input formControlName="des" type="text" id="des">
+        </div>
+        <div class="au-gen-inp">
+            <label for="uom">UOM</label>
+            <input formControlName="uom" type="text" id="uom" />
+        </div>
+        <div class="au-gen-inp">
+            <label for="loc">Location</label>
+            <input formControlName="loc" type="text" id="loc" />
+        </div>
+        <div class="au-gen-inp">
+            <label for="type">Type of component</label>
+            <input formControlName="type" type="text" id="type" />
+        </div>
+    </div>
+    <div>
+        <div class="heading3">
+            <h3>Manual Entry</h3>
+        </div>
+        <div class="manual-entry">
+            <div class="man-ent-inp">
+                <label for="pono">PO No</label>
+                <input formControlName="pono" type="text" id="pono" />
+            </div>
+            <div class="man-ent-inp">
+                <label for="podate">PO Date</label>
+                <input formControlName="podate" type="text" id="podate" />
+            </div>
+            <div class="man-ent-inp">
+                <label for="vname">Plier vendor name</label>
+                <input formControlName="vname" type="text" id="vname" />
+            </div>
+            <div class="man-ent-inp">
+                <label for="bg">BG</label>
+                <input formControlName="bg" type="text" id="bg" />
+            </div>
+            <div class="man-ent-inp">
+                <label for="dno">Material document No</label>
+                <input formControlName="dno" type="text" id="dno" />
+            </div>
+            <div class="man-ent-inp">
+                <label for="ddate">Document date</label>
+                <input formControlName="ddate" type="text" id="ddate" />
+            </div>
+            <div class="man-ent-inp">
+                <label for="pdate">Posting Date</label>
+                <input formControlName="pdate" type="text" id="pdate" />
+            </div>
+            <div class="man-ent-inp">
+                <label for="bat">Batch</label>
+                <input formControlName="bat" type="text" id="bat" />
+            </div>
+            <div class="man-ent-inp">
+                <label for="qty">Receiving Qty</label>
+                <input formControlName="qty" type="text" id="qty" />
+            </div>
+            <div class="man-ent-inp">
+                <label for="val">Total value</label>
+                <input formControlName="val" type="text" id="val" />
+            </div>
+            <div class="man-ent-inp">
+                <label for="mfd">Manufacturing Date</label>
+                <input formControlName="mfd" type="text" id="mfd" />
+            </div>
+            <div class="man-ent-inp">
+                <label for="unitprice">Unit Price $</label>
+                <input formControlName="unitprice" type="text" id="unitprice" />
+            </div>
+            <div class="man-ent-inp">
+                <label for="expdate">Expire Date</label>
+                <input formControlName="expdate" type="text" id="expdate" />
+            </div>
+            <div class="man-ent-inp">
+                <label for="grno">GR no</label>
+                <input formControlName="grno"  type="text" id="grno" />
+            </div>
+            <div class="man-ent-inp">
+                <label for="grdate">GR Date</label>
+                <input formControlName="grdate" type="text" id="grdate" />
+            </div>
+            <div class="man-ent-inp">
+                <label for="sgnum">System generate No</label>
+                <input formControlName="sgnum" type="text" id="sgnum" />
+            </div>
+            <div class="clear-btn">
+                <button (click)="clearform()"><b>Clear</b></button>
+            </div>
+        </div>
+    </div>
+   </form>
+</div>

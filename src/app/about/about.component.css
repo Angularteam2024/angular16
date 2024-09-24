@@ -1,0 +1,62 @@
+.about{
+    max-width: 1300px;
+    margin: auto;
+    padding: 1%;
+    background-color:lemonchiffon;
+}
+.top{
+    display:flex;
+    background-color: rgb(29, 29, 196);
+    flex-wrap: wrap;
+}
+.ele-1{
+    min-width: 40%;
+    /* display: flex;
+    justify-content: start;
+    align-items: center; */
+    margin: auto;
+}
+.ele-2{
+    min-width: 50%;
+    display: flex;
+    height: 400px;
+}
+.ele-1>h1{
+    font-family:  NokiaPureHeadline, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: aliceblue;
+}
+.ele-2>img{
+    width: 100%;
+}
+h3{
+    color:rgb(100, 99, 99);
+}
+h2{
+    font-family:  NokiaPureHeadline, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+.mid-2{
+    display:flex;
+    flex-wrap:wrap;
+}
+.mid-2>.text{
+    max-width: 50%;
+}
+.mid-2>.image>img{
+    height: 300px;
+    width:100%;
+}
+.btm{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.sec{
+    width: 400px;
+    text-align: center;
+
+}
+.sec>img{
+    width: 100%;
+}

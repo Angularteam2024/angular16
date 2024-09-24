@@ -1,0 +1,111 @@
+<div class="mx-wd">
+    <div class="head">
+        <h2>RC Main Store Master</h2>
+    </div>
+    <div class="upload">
+        <h4>Upload Material</h4>
+        <div class="gr_btn">
+            <div class="choose-btn">
+                <input class="" #fileinput type="file" (change)="onFileChange($event)" >
+                <button class="s_btn" (click)="onSave()">Save</button>
+                <button class="c_btn" (click)="onClear()">Clear</button>
+            </div>
+            <div> <button class="Excel_btn">Excel Template</button></div>
+        </div>
+    </div>
+    <form [formGroup]="materialForm" (ngSubmit)="onSubmit()">
+        <div class="grids">
+            <div class="grid">
+                <div class="input-fields">
+                    <label for="partCode">Part Code</label>
+                    <input formControlName="partCode" type="text" name="partCode" id="partCode"
+                        placeholder="Enter your code">
+                </div>
+                <div class="input-fields">
+                    <label for="description">Description</label>
+                    <input formControlName="description" type="text" name="description" id="description"
+                        placeholder="Enter your Description">
+                </div>
+                <div class="input-fields">
+                    <label for="umo">UOM</label>
+                    <input formControlName="umo" type="text" name="umo" id="umo" placeholder="Enter your UOM">
+                </div>
+                <div class="input-fields">
+                    <label for="activity">Active for ordering</label>
+                    <input formControlName="activity" type="text" name="activity" id="activity"
+                        placeholder="Enter your Activity">
+                </div>
+                <div class="input-fields">
+                    <label for="Componentusage">Component usage</label>
+                    <input formControlName="Componentusage" type="text" name="ComponentUsage" id="Componentusage"
+                        placeholder="Enter your Usage">
+                </div>
+                <div class="input-fields">
+                    <label for="types">Type of Component</label>
+                    <input formControlName="types" type="text" name="type" id="types" placeholder="Enter your Type">
+                </div>
+                <div class="input-fields">
+                    <label for="rohsStatus">ROHS Status</label>
+                    <input formControlName="rohsStatus" type="text" name="rohsStatus" id="rohsStatus"
+                        placeholder="Enter your ROHS Status">
+                </div>
+                <div class="input-fields">
+                    <label for="leadTime">Total Lead Time</label>
+                    <input formControlName="leadTime" type="text" name="leadTime" id="leadTime"
+                        placeholder="Enter your Lead Time">
+                </div>
+                <div class="input-fields">
+                    <label for="msdStatus">MSD Status</label>
+                    <input formControlName="msdStatus" type="text" name="msdStatus" id="msdStatus"
+                        placeholder="Enter your MSD status">
+                </div>
+                <div class="input-fields">
+                    <label for="bg">BG</label>
+                    <input formControlName="bg" type="text" name="bg" id="bg" placeholder="Enter your BG">
+                </div>
+                <div class="input-fields">
+                    <label for="productGroup">Product Group</label>
+                    <input formControlName="productGroup" type="text" name="productGroup" id="productGroup"
+                        placeholder="Enter your Product Group">
+                </div>
+                <div class="input-fields">
+                    <label for="productFamily">Product Family</label>
+                    <input formControlName="productFamily" type="text" name="productFamily" id="productFamily"
+                        placeholder="Enter your Product Family">
+                </div>
+                <div class="input-fields">
+                    <label for="thLimit">TH Limit</label>
+                    <input formControlName="thLimit" type="text" name="thLimit" id="thLimit"
+                        placeholder="Enter your TH Limit">
+                </div>
+                <div class="input-fields">
+                    <label for="productName">Product Name</label>
+                    <input formControlName="productName" type="text" name="productName" id="productName"
+                        placeholder="Enter your Product Name">
+                </div>
+                <div class="input-fields">
+                    <label for="location">Location</label>
+                    <input formControlName="location" type="text" name="location" id="location"
+                        placeholder="Enter your Location">
+                </div>
+                <div class="input-fields">
+                    <label for="compatibility">Compatibility</label>
+                    <input formControlName="compatibility" type="text" name="compatibility" id="compatibility"
+                        placeholder="Enter Your Compatibility">
+                </div>
+                <div class="input-fields">
+                    <label for="unitPrice">Unit Price $</label>
+                    <input formControlName="unitPrice" type="text" name="unitPrice" id="unitPrice"
+                        placeholder="Enter your Unit Price">
+                </div>
+            </div>
+        </div>
+        <div class="btn">
+            <div>
+
+                <button class="c_btn" (click)="clearform()">Clear</button>
+                <button type="submit" [disabled]="materialForm.invalid" class="s_btn">Submit</button>
+            </div>
+        </div>
+    </form>
+</div>

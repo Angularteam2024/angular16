@@ -1,0 +1,37 @@
+<div class="create-account-page">
+    <div class="create-account">
+      <div class="new-container"> 
+         <div class="new-img">
+        <img src="https://img.freepik.com/free-vector/privacy-policy-concept-illustration_114360-7853.jpg?t=st=1726986949~exp=1726990549~hmac=3cbcd3f4f81500fc43c0b4e69abe0d5761dac3da47d297526783a8fb49fcfced&w=740" alt="">
+    </div>
+    <div class="new-left">
+        <p>Create New Account</p>
+        <div>
+            <form [formGroup]="createAccountForm" (ngSubmit)="onCreateAccountSubmit()">
+                <div class="crt-acc">
+                    <label for="userId">User ID</label>
+                    <input formControlName="userId" type="text" placeholder="Enter User ID" />
+
+                </div>
+                <div class="crt-acc">
+                    <label for="email">Email</label>
+                    <input formControlName="email" type="email" placeholder="Enter your email" />
+
+                </div>
+                <div class="crt-acc">
+                    <label for="password">Password</label>
+                    <input formControlName="password" type="password" placeholder="Enter Password" />
+
+                </div>
+                <div class="crt-acc">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input formControlName="confirmPassword" type="password" placeholder="Confirm Password" />
+
+                </div>
+                <div class="crt-acc"> <button type="submit" class="form-button">Create Account</button>
+                </div>
+            </form>
+        </div>
+    </div></div>
+    </div>
+</div>

@@ -1,0 +1,119 @@
+.mx-wd{
+    max-width: 1500px;
+    margin: auto;
+    padding: 0;
+    background-color: rgba(128, 128, 128, 0.082);
+   
+
+}
+.head{
+    text-align: center;
+    color:rgb(39, 39, 177) ;
+    padding: 10px 15px;
+}
+
+.upload{
+    max-width: 1130px;
+    margin: auto; 
+    padding: 5px 10px;
+   color: rgb(39, 39, 177);
+    border-radius: 5px;
+    
+    
+}
+.choose-btn>input{
+    border: 1px solid black;
+    
+    border-radius: 5px;
+}
+.choose-btn{
+    max-width: 900px;
+}
+.gr_btn{
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-between;
+}
+
+.s_btn{
+    color:white;
+    background-color: green;
+    cursor: pointer;
+    padding:5px 10px;
+    margin:0 5px 15px 5px;
+    border-radius: 5px;
+}
+
+.c_btn{
+    color: white;
+    background-color: rgb(10, 172, 236);
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 0 15px 15px 0;
+    border-radius: 5px;
+}
+
+.Excel_btn{
+    color: white;
+    background-color: rgb(10, 172, 236);
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 0 15px 15px 0;
+    border-radius: 5px;
+}
+
+.grids{
+    max-width: 1100px;
+    box-shadow: 0 4px 27px rgba(0, 0, 0, .5);
+    border-radius: 5px;
+    margin: auto;
+    padding: 20px;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+
+    
+}
+
+.grid label{
+    display: block;
+    padding: 20px 20px 10px 0;
+  
+}
+
+.btn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    padding: 20px;
+}
+.submit_data{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.material_details{
+   
+    max-width: 1000px;
+    margin: auto;
+    
+}
+
+.material_details thead,tbody,th,tr,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.input-fields input{
+    background-color: rgba(128, 128, 128, 0.127);
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    margin-left: 10px;
+}

@@ -1,0 +1,107 @@
+.mx_wd{
+    max-width: 1300px;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: center;
+    font-family:  'Josefin Sans', sans-serif;
+    background-image: url("https://wallpaperaccess.com/full/1528297.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.login-page{
+    
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    box-shadow: 0 4px 27px rgba(0,0,0,.1);
+    border-radius: 5px;
+    background-color: rgba(255, 254, 254, 0.904) ;
+   font-size: 18px;
+   
+}
+
+.login h2,h4,p{
+    text-align: center;
+    padding: 150x 0 0 0;
+    color:rgb(5, 5, 129) ;
+    
+    
+}
+.login p{
+
+    font-size: 18px;
+}
+.login h2{
+    font-family:'Times New Roman', Times, serif
+}
+
+.form-login{
+    display: flex;
+    max-width: 300px;
+    margin: auto;
+    flex-direction: column;
+    
+    
+}
+
+.form-login label{
+   
+    padding: 0 0 0 20px;
+    color: rgb(5, 5, 129);
+    font-size: 14px;
+}
+
+.form-input{
+    margin: 15px auto;
+    height: 20px;
+    width: 250px;
+    padding: 10px;
+   
+    border: none;
+    border-radius: 5px;
+    background-color:gainsboro;
+  
+}
+
+.form-button{
+    width: 100px;
+    height: 30px;
+    margin: 20px auto;
+    border-radius: 20px;
+    color:white;
+    background-color: rgb(10, 172, 236);
+    cursor: pointer;
+    border: none;
+    
+}
+
+.forgot_change{
+    display: flex;
+    flex-wrap:wrap ;
+    max-width: 300px;
+    margin: auto;
+    justify-content: space-between;
+    font-size: 14px;
+    
+}
+
+.new_account{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;
+    margin: auto;
+    justify-content: center;
+    font-size: 14px;
+    margin-top: 15px;
+
+
+}
+
+.forgot_change a,.new_account a{
+    color: rgb(5, 5, 129);
+}
+

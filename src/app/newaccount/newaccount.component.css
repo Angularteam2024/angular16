@@ -1,0 +1,67 @@
+.create-account-page{
+    max-width: 1500px;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: center;
+    font-family:  'Josefin Sans', sans-serif;
+    background-image: url("https://wallpaperaccess.com/full/1528297.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.create-account{
+    width: 900px;
+    height: 400px;
+    margin: auto;
+    box-shadow: 0 4px 27px rgba(0,0,0,.1);
+    border-radius: 5px;
+    background-color: rgb(255, 254, 254) ;
+    text-align: center;
+    padding: 150x 0 0 0;
+    color:rgb(5, 5, 129) ;
+    font-size: 16px;
+    
+}
+
+.crt-acc{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 320px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.new-left{
+    width: 450px;
+   
+}
+.new-img img{
+    width: 450px;
+    height: 400px;
+    border-radius: 5px;
+}
+
+.new-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.crt-acc input{
+    background-color: rgba(128, 128, 128, 0.142);
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
+.form-button{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
